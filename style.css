@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.first-div{
+  border: 15px solid black;
+  height: 400px;
+  width: 55%;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+
+}
+
+.second-div{
+  background-color: white;
+  height: 300px;
+  width: 75%;
+  position: absolute;
+  top: 155px;
+  left: 100px;
+
+}
+
+.start-text{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  line-height: 0.5em;
+  font-family: monospace;
+}
